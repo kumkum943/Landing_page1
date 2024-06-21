@@ -1,0 +1,182 @@
+@media (max-width: 700px) {
+
+    #toplayer:nth-child(1) {
+        padding-top: 15vh;
+    }
+
+    #toplayer>h1 {
+        font-size: 9vw;
+        margin-top: 3vh;
+
+    }
+
+    #toplayer hr {
+        margin-top: 4vh;
+    }
+
+    #info #links {
+        margin-top: 3vh;
+        width: 80vw;
+    }
+
+    #links>i {
+        font-size: 10vw;
+    }
+
+    .Main {
+        width: 100vw;
+        position: relative;
+    }
+
+    .contentholder {
+        position: relative;
+    }
+
+    #switch {
+        position: absolute;
+        width: 4vw;
+        display: initial;
+        top: 10%;
+        transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+        left: 0;
+        z-index: 99;
+        height: 6vh;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: #000000;
+    }
+
+    #switch p {
+        font-size: 3vw;
+        color: #fff;
+        font-family: sans-serif;
+        letter-spacing: 1px;
+        /* font-weight: 900; */
+
+        transform: translate(0%, 210%) rotate(-90deg);
+    }
+
+    .navtags {
+        justify-content: center !important;
+    }
+
+    .navtags .heading {
+        width: 80% !important;
+        justify-content: space-between;
+    }
+
+    .heading .samsung {
+        width: 43%;
+    }
+
+    .heading .samsung a>h2 {
+        font-size: 6vw;
+    }
+
+    .navtags .items {
+        position: absolute;
+        z-index: 99;
+        left: -100%;
+        top: 82%;
+        width: 60vw;
+        transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+        height: 20vh;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: #686868;
+
+    }
+
+    .navtags .items ul {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 5vw;
+    }
+
+    .items ul li a {
+        font-size: 3.5vw;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .menu {
+        width: 10%;
+    }
+
+    .heading .menu i {
+        font-size: 5vw;
+    }
+
+    .navtags .search {
+        width: 9%;
+    }
+
+    .search a {
+        display: none;
+    }
+
+    .search i {
+        font-size: 5vw;
+    }
+
+    .crossbtn {
+        display: initial;
+    }
+
+    .crossbtn>i {
+        font-size: 4vw;
+        position: absolute;
+        right: 5%;
+        top: 5%;
+    }
+    #watches{
+    flex-direction: column;
+    height: 65vh;
+    /* background-color: #fff; */
+    margin-top: 4vh;
+    }
+    #watches .watchcontainer{
+        flex-direction: column;
+    }
+    #watches .watchcontainer .watch1,.watch3{
+        width: 50vw;
+    
+        height: 60vh;
+    }
+    .watchcontainer .watch2{
+        transform: scale(6);
+        margin-top: 5vw;
+    }
+
+    #linediv{
+        display: none !important;
+    }
+
+    .lastfloor .number h1{
+        font-size: 7vw;
+    }
+    .number p{
+        font-size: 4vw;
+    }
+    .lastfloor #num2{
+        width: 37vw;
+    }
+    .number>h2{
+        font-size: 5vw;
+    }
+    .lastfloor #num3{
+        flex-direction: column;
+        align-items: flex-end;
+        
+        justify-content: center;
+    }
+    .number>a{
+        font-size: 5vw;
+        margin-right: 3vw;
+    }
+    .number a:nth-child(3){
+        margin-right: 4.3vw;
+    }
+
+
+}
